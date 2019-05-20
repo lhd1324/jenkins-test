@@ -4,8 +4,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'npm -v'
+                sh 'npm --version'
             }
         }
     }
 }
+//修改0
